@@ -42,10 +42,10 @@ class App extends Component {
       <div className="App">
           <Header />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/spacelibrary/">
               <Books change={this.changeData}/>
             </Route>
-            <Route path="/book/:id">
+            <Route path="/spacelibrary/book/:id">
               <Detailed data={this.state.data} />  
             </Route>
           </Switch>
