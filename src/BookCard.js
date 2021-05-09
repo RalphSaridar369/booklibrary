@@ -17,9 +17,9 @@ const BookCard = (props) => {
     return (
 
       <div className="card-container">
-        <Link onClick={()=>changing()} to={`/book/${props.title}`}><img src={props.image} alt=""/></Link>
+        <Link onClick={()=>changing()} to={`booklibrary/book/${props.title}`}><img src={props.image} alt=""/></Link>
         <div className="desc">
-            <Link onClick={()=>changing()} style={{textDecoration:'none',color:'black', fontSize:'1.5em'}}  to={`/book/${props.title}`}>
+            <Link onClick={()=>changing()} style={{textDecoration:'none',color:'black', fontSize:'1.5em'}}  to={`booklibrary/book/${props.title}`}>
               <h2>{props.title}</h2>
             </Link>
             <h3>{props.authors}</h3>
