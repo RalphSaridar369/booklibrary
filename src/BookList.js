@@ -9,11 +9,13 @@ const BookList = (props) => {
 
               return <BookCard 
                 key={i}
+                book={book}
                 image={book.volumeInfo.imageLinks.thumbnail}
                 title={book.volumeInfo.title}
                 published={book.volumeInfo.publishedDate} 
                 authors={book.volumeInfo.authors}
-                link={book.accessInfo.pdf.acsTokenLink} />
+                link={book.accessInfo.pdf.acsTokenLink}
+                change={props.change} />
                 
               
           })

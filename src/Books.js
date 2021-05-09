@@ -72,7 +72,7 @@ class Books extends Component {
         return (
             <div className="wrapper">
                 <SearchBox change={this.handleChange} result={this.handleSubmit} sort={this.handleSort}/>
-                <BookList books={sortedBooks}/>
+                <BookList books={sortedBooks} change={this.props.change}/>
             </div>
         );
     }
