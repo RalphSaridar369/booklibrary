@@ -9,7 +9,7 @@ const Detailed = ({data}) => {
     }
 
     const style2={
-        margin:'1rem 0 1rem 0',
+        margin:'1rem 2rem 1rem 2rem',
         textAlign:'center',
     }
 
