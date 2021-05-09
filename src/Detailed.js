@@ -4,7 +4,7 @@ const Detailed = ({data}) => {
     console.log(data);
 
     const style1={
-        margin:'3rem 0 1rem 0',
+        margin:'3rem 2rem 1rem 2rem',
         textAlign:'center',
     }
 
