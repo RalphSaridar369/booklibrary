@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Detailed.css';
 
 const Detailed = ({data}) => {
     console.log(data);
@@ -15,7 +16,7 @@ const Detailed = ({data}) => {
 
     return (
         <div>
-            <img src={data.image}/>
+            <img src={data.image} className="mainImage"/>
             <div>
                 <h1 style={style1}>{data.title}</h1>
                 <h2 style={{textAlign:'center'}}>{data.authors}</h2>
