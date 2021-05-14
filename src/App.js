@@ -42,7 +42,7 @@ class App extends Component {
       <div className="App">
           <Header />
           <Switch>
-            <Route exact path="/booklibrary/">
+            <Route exact path="/booklibrary">
               <Books change={this.changeData}/>
             </Route>
             <Route path="/book/:id">
